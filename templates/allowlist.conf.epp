@@ -1,0 +1,7 @@
+# Managed by Puppet (rkhunter_maths) — do not edit directly.
+<% $allowed_hidden_dirs.each |$dir| { -%>
+ALLOWHIDDENDIR=<%= $dir %>
+<% } -%>
+<% $allowed_hidden_files.each |$file| { -%>
+ALLOWHIDDENFILE=<%= $file %>
+<% } -%>
